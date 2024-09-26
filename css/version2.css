@@ -13,23 +13,21 @@ img {
     max-width: 100%; /* DO NOT delete or change this line */
 }
 
+photo {
+    display: flex;
+}
+
 section {
-    max-width: 500px;
-    margin: 0;
+    margin: 10px;
+    flex-direction: column;
+    flex: 1;
 }
 
 article {
     display: flex;
-    justify-content: center;
-    align-items: center;
     padding: 50px;
-}
-
-.photo {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+    flex-direction: row;
+    justify-content: flex-start;
 }
 
 header {
@@ -57,33 +55,23 @@ nav ul li {
 
 #cougar {
     display: flex;
-    flex-direction: column;
     background: #FFBD82;
 }
 
 #lion {
     display: flex;
-    flex-direction: column;
     background: #DF7C20;
 }
 
 #tiger {
     display: flex;
-    flex-direction: column;
     background: #FFD5AE;
 }
 
 .text {
-    background-color: #fff;
-    padding: 30px;
     line-height: 1.2rem;
     font-size: 1rem;
-
 }
-
- .text  h2 {
-        text-align: center;
-    }
 
 footer {
     color: #fff;
